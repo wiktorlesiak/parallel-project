@@ -4,3 +4,14 @@ This project introduces a simulation for the zombie infection outbreak based on 
 Cellular automata divides the world into cells, each cell will start as either Human or Zombie which are affected by the neighbours according to set rules. Rules are applied in every generation and all cells in each generation are affected simultaneously.   The Rules will impact on the state of the cell and could change cell to Human, Zombie or Dead (and in the case of Latent Model infected).
 There are many zombie outbreak models our main focus was on Basic and Latent Infection models.
 
+<img src="https://imgur.com/yZel5sB">
+
+<img src="https://imgur.com/vDxGTB3">
+
+
+| Thread Count   | Time Taken (seconds)  |
+| :------------ |:---------------:|
+| 1     | 2592  |
+| 2     | 1364        |
+| 4     | 700        |
+| 8     | 647        |
